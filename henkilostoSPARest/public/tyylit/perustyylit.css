@@ -1,0 +1,65 @@
+body{
+    background-color: lavender;
+}
+main{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+table{
+    border-collapse: collapse;
+    margin-bottom: 1em;
+    background-color: antiquewhite;
+}
+
+th{
+    background-color: khaki;
+}
+
+table,td,th{
+    border:1px solid black;
+    padding: 0.5em;
+}
+
+tr:nth-child(odd){
+    background-color: burlywood;
+}
+
+.virhe{
+    border:1px dashed red;
+    padding:0.5em;
+}
+
+.info{
+    border:1px solid green;
+    padding:0.5em;
+}
+
+button{
+    width:13em;
+    height: 2em;
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+}
+
+input[readonly]{
+    background-color: lightgray;
+}
+
+.selite{
+    font-weight: bold;
+}
+.tieto{
+    color:blue;
+}
+
+#tulosalue p{
+    display:grid;
+     grid-template-columns: repeat(2, 1fr);
+     gap:10px;
+}
+
+#napit, #hakuehto{
+    display: grid;
+}
